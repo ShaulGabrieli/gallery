@@ -1,0 +1,38 @@
+.port-modal {
+    /* visibility: hidden; */
+    background-color: rgba(68, 68, 68, 0.923);
+    width: 800px;
+    height: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: azure;
+    z-index: 3;
+    text-align: center;
+}
+
+.port-modal.open {
+    visibility: visible;
+}
+
+
+.modal-img {
+    width: 300px;
+    padding: 10px;
+}
+
+.port-modal p{
+    text-align: left;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.port-modal button{
+    cursor: pointer;
+}
+
+#portfolio .container{
+    position: relative;
+}
+
